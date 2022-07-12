@@ -238,7 +238,7 @@ Function That Returns The Amount Of Indetifiers.
 
 
 ### Authors
-Thaoban Abdrasheed and Solomon Emmanuel
+Thaoban Abdrasheed & Solomon Emmanuel
 
 ------------
 
