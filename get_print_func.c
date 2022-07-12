@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * get_print_func - selects the correct function to perform the operation.
  * @s: argument indentifier
- * @index: index for argument indetifier
- * Return: pointer to a function
+ * @index: index for argument indentifier
+ * Return: pointer to a function.
  */
-
 int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 {
 	print_t pr[] = {
@@ -18,7 +16,7 @@ int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 		{"p", print_add}, {"li", prinlint},
 		{"ld", prinlint}, {"lu", prinlunt},
 		{"lo", prinloct}, {"lx", prinlhex},
-		{"LX", prinlupx}, {"hi", prinhint},
+		{"lX", prinlupx}, {"hi", prinhint},
 		{"hd", prinhint}, {"hu", prinhunt},
 		{"ho", prinhoct}, {"hx", prinhhex},
 		{"hX", prinhupx}, {"#o", prinnoct},
@@ -37,11 +35,9 @@ int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 		{"+ i", prinpint}, {"+ d", prinpint},
 		{" %", print_prg}, {NULL, NULL},
 	};
-
 	int i = 0, j = 0, first_index;
 
 	first_index = index;
-
 	while (pr[i].type_arg)
 	{
 		if (s[index] == pr[i].type_arg[j])
@@ -58,5 +54,5 @@ int (*get_print_func(const char *s, int index))(va_list, char *, unsigned int)
 			index = first_index;
 		}
 	}
-		return (pr[i].f);
+	return (pr[i].f);
 }

@@ -4,4 +4,4 @@
 *.h	eol=lf
 *.md	eol=lf
 *.gitattributes	eol=lf
-*.md	eol=lf
+*man_3_printf	eol=lf

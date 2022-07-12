@@ -5,9 +5,8 @@
  * @arguments: input string
  * @buf: buffer pointer
  * @ibuf: index for buffer pointer
- * Return: on sucess 1
+ * Return: On success 1.
  */
-
 int print_str(va_list arguments, char *buf, unsigned int ibuf)
 {
 	char *str;

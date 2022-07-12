@@ -1,16 +1,17 @@
+
 ## _printf()
 
 The printf project is a collaboration between Tolulope Fakunle and Bamidele Adefolaju, students of Software Engineering at ALX. 
 
- This function named `_printf()` imitates the actual "printf()" command located in the stdio.h library of C programming Language. It contains some of the basic features and functions found in the manual 3 of "printf".
+This function named "_printf()" imitates the actual "printf()" command located in the stdio.h library of C programming Language. It contains some of the basic features and functions found in the manual 3 of "printf".
 
-`_printf()` is a function that performs formatted output conversion and print data. Its prototype is the following:
+_printf() is a function that performs formatted output conversion and print data. Its prototype is the following:
 
 	  int _printf(const char *format, ...) 
 
 Where **format** contains the string that is printed. 
 
-`_printf()` is a variadic function, it can receives n arguments that replace by n tags written inside the string.
+_printf() is a variadic function, it can receives n arguments that replace by n tags written inside the string.
 
 The format tags prototype is the following:
 
@@ -238,10 +239,10 @@ Function That Returns The Amount Of Indetifiers.
 
 
 ### Authors
-Thaoban Abdrasheed & Solomon Emmanuel
+Tolulope Fakunle and Bamidele Adefolaju
 
 ------------
 
 ### End
 
-Thaoban & Kismas @ ALX software engineering programme 2022.
+Bamidele & Adefolaju @ ALX software engineering programme 2022.
